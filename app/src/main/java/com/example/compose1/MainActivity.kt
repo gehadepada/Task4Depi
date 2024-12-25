@@ -53,9 +53,9 @@ fun IssueItem() {
 
         Spacer(modifier = Modifier.width(16.dp))
 
-        // Align the button to the top within the row
+    
         Button(
-            onClick = { /* Handle open action */ },
+            onClick = { },
             modifier = Modifier.align(Alignment.Top) // Ensure button aligns to the top
         ) {
             Text(text = "Open")
